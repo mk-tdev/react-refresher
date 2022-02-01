@@ -73,7 +73,9 @@ const UserList: React.FC = () => {
           onChange={onSearchTermChange}
         />
 
-        <button onClick={onSearch}>Search</button>
+        <button className="" onClick={onSearch}>
+          Search
+        </button>
       </div>
 
       {user && (
